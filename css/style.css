@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-size: 18px;
+    font-family: 'Poppins','Rubik', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+img,svg{
+    display: block;
+    max-width: 100%;
+}
+.container{
+    width: 95%;
+    max-width: 100%;
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.col-6{
+    width: 50%;
+}
+.col-4{
+    width: 33.33%
+}
+.col-3{
+    width: 25%;
+}
+.text{
+    font-weight: 600;
+    margin-block: 15px;
+}
+.text-white{
+    color: #fff;
+}
+.text-center{
+    text-align: center;
+    /* padding-inline: 15px; */
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.btn{
+    font-weight: 700;
+    padding-block: 8px;
+    padding-inline: 20px;
+    background:#FFCA2E;
+    color: #242424;
+    border-radius: 8px;
+    
+}
+.py-60{
+    padding-block: 60px;
+}
+.pt-30{
+    padding-block-start: 30px;
+}
+/* header */
+header{
+    background: #EFECEC;
+}
+.topbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 15px;
+}
+.topbar__content{
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+/* banner */
+.banner-section .row{
+    align-items: stretch;
+}
+
+.banner__container{
+    background: #242424;
+    padding-block: 60px;
+}
+.banner__content{
+    max-width: 80%;
+    margin-inline: auto;
+}
+h1.heading{
+    font-family: poppins;
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #fff;
+    padding-block: 20px;
+}
+.banner__content p.text{
+    color: #fff;
+}
+.unorder-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    color: #fff;
+    padding-block: 20px;
+    margin-block: 20px;
+}
+.banner-section .unorder-list li i{   
+    color:#FFCA2E;
+    font-size: 10px;
+    margin-inline-end: 10px;
+}
+.banner_img{
+    height: 100%;
+}
+.banner_img img{
+    height: 100%;
+    object-fit: cover;
+}
+.bg-yellow{
+    background:#FFCA2E;
+}
+.banner-section .bg-yellow{
+    padding-block: 40px;
+}
+.bg-yellow h2.heading{
+    font-size: 36px;
+}
+.bg-yellow p.text{
+    font-size: 22px;
+    text-align: center;
+}
+/* Solution section */
+.solution_section h2.heading,
+.vedio_section h2.heading,
+.death_section h2.heading,
+.exercise_section h2.heading{
+    font-family: Rubik;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    margin-block: 30px;
+}
+.solution_section .row{
+    gap: 30px;
+}
+.card{
+    width: 75%;
+    margin-inline: auto;
+    margin-block-start: 30px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 50px;
+    background: gainsboro;
+    border-radius: 10px;
+}
+.card-body .counter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+}
+/* Videos Section */
+.vedio_section{
+    background: gainsboro;
+}
+.vedio_section p.text{
+    font-weight: 400;
+}
+.video{
+    margin-block:40px;
+    display: flex;
+    justify-content: center;
+}
+.vedio_section .video{
+    height: 100vh;
+}
+/* bg fixed */
+.bg-fixed{
+    background: url('../images/bg-fixed.gif') no-repeat 
+    center center fixed ;
+    background-size: cover;
+    padding-block: 220px;
+    /* height: 100vh; */
+}
+/* Death Grips Section */
+.death_section{
+    background: #242424;
+}
+.death_section h2.heading{
+    color: #fff;
+}
+.death_section h3.title{
+    margin-block: 15px;
+    color:#FFCA2E;
+}
+.death_section p.text{
+    font-weight: 400;
+    color: #fff;
+    width: 80%;
+}
+.death_section .unorder-list li i{   
+    color: #fff;
+    margin-inline-end: 15px;
+}
+/* Excersice section */
+
+.exercise_section  .row{
+    gap: 30px;
+}
+.exercise_section .card{
+    width: 100%;
+}
+.exercise_section .card-body{
+    padding-inline: 20px;
+}
+/* Review Section */
+.bg-black{
+    background: #242424;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* place-items: center; */
+}
+.grid.grid-reverse{
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px ;
+}
+/* Grip section */
+.py-95{
+    padding-block: 95px;
+}
+.grip_section{
+    background: #EFECEC;
+}
+.grip_section .heading{
+    font-size: 36px;
+    line-height: 44px;
+    margin-block-end: 15px;
+}
+.grip_section p.text{
+    padding-inline: 60px;
+    font-weight: 400;
+}
+/* Growing section */
+.growing_section{
+    background: linear-gradient(to bottom, rgba(17 17 17 / 52%), rgb(16 1 12 / 83%)), url('../images/bg-fixed_flag.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #242424;
+}
+.growing_content{
+    width: 70%;
+    margin-inline: auto;
+}
+.growing_section h2.heading{
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+/* Client section */
+.mb-30{
+    margin-block-end: 30px;
+}
+.mt-30{
+    margin-block-start: 30px;
+}
+.client_section h3.heading{
+    font-size: 42px;
+    line-height: 48px;
+}
+.client-image img{
+    object-fit: cover;
+    height: 100%;
+}
+.client-details{
+    position: relative;
+}
+.separetor::after{
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background: rgb(20, 20, 20);
+    position: absolute;
+    top: 25%;
+    right: 30%;
+}
+
+.block-qoute{
+    padding-inline: 30px;
+    padding-block: 20px;
+}
