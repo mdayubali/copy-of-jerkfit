@@ -36,14 +36,22 @@
         line-height: 36px;
         padding-block: 10px;
     }
-    
-    .bg-yellow h2.heading{
-        font-size: 26px;
-        text-align: center;
+    .py-95{
+        padding-block: 30px;
+    }
+    .client_section h3.heading, 
+    h2.heading{
+        font-size: 28px !important;
+        line-height: 34px !important;
+    }
+    .bg-yellow h2.heading,
+    .grip_section .heading{
+        font-size: 26px !important;
+        line-height: 30px !important;
     }
     .bg-yellow p.text{
         font-size: 18px;
-    }
+    } 
     .grid,.grid.grid-reverse{
         grid-template-columns: 1fr;
     }
